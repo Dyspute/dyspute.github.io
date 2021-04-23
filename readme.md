@@ -1,0 +1,3 @@
+# Dyspute's homepage
+
+COPYRIGHT PELTOGLE 2018 - PRESENT.

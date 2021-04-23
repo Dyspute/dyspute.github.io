@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Open+Sans&display=swap');
+:root {
+	--f1: 30px;
+	--f2: 26px;
+	--f3: 22px;
+	--f4: 18px;
+	--f5: 14px;
+	--f6: 10px;
+	--p: 16px;
+	/* Background colors */
+	--dark-1: rgba(0, 0, 0, 1);
+	--dark-2: rgba(15, 15, 16, 1);
+	--dark-3: rgba(20, 20, 21, 1);
+	/* Forground colors */
+	--red: rgba(255, 69, 58, 1);
+	--blue: rgba(99, 164, 255, 1);
+	--green: rgba(0, 167, 134, 1);
+	/* Background colors */
+	--light-1: rgba(255, 255, 255, 1);
+	--light-2: rgba(227, 227, 255, 1);
+	--light-3: rgba(211, 211, 209, 1);
+}
+
+* {
+	color: var(--dark-1);
+	/* Temp inverse */
+	/* margin: 0%;
+	padding: 0%; */
+}
+
+body {
+	/* Colors */
+	color: var(--light-1);
+	background-color: var(--dark-1);
+	/* Box layout */
+	padding: 10%;
+	/* Positoning */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header {
+		/* Colors */
+		color: var(--light-1);
+		/* Box layout */
+		padding: 2%;
+		/* Positoning */
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+}
+
+header img {
+	width: 10em;
+	height: auto;
+}
+
+header h1 {
+	color: var(--blue);
+	/* Temp */
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header h2 {
+	color: var(--light-1);
+	/* Temp */
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header h3 {
+	color: var(--light-2);
+	/* Temp */
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header small {
+	color: var(--light-3);
+	/* Temp */
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;	
+}
+
+header a {
+	padding: 5px;
+	color: var(--light-1);
+	text-decoration: none;
+	background-color: var(--blue);
+	/* Temp */
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header a:hover, a:active {
+	color: var(--blue);
+  background-color: var(--light-1);
+}
+
+header span {
+	color: var(--light-1);
+	/* Temp */
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
